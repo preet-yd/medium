@@ -3,7 +3,7 @@
  * @see https://v0.dev/t/D7YfmCbEmDu
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import MediumLogo from "../images/Medium_(website)_logo.svg"
 import { useState } from "react"
 import axios from "axios"
@@ -57,7 +57,7 @@ export function Publish() {
           </div>
         </div>
         <div className="flex justify-end items-center space-x-4">
-          <Link to={"/home"}>
+          <Link to={"/"}>
             Back to home
           </Link>
           <Button onClick={
@@ -71,7 +71,7 @@ export function Publish() {
                 }
               })
               console.log(response)
-              navigate('/home')
+              navigate('/')
             }
           } size="lg">Publish</Button>
         </div>
