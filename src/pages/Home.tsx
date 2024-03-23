@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 import MediumLogo from "../images/Medium_(website)_logo.svg"
 import { useEffect, useState } from "react";
 import axios from "axios"
-import { Loader } from "@/components/ui/Loader"
+import { Loader } from "@/components/ui/BlogSkelton"
 
 export function Home() {
   // const id = useId()

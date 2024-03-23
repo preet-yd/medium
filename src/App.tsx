@@ -5,7 +5,7 @@ import { Home } from './pages/Home'
 import { Publish } from './pages/Publish'
 import {Blog} from './pages/Blog'
 import Protected from './pages/Protected'
-import Loader from './components/ui/Loader'
+import Loader from './components/ui/BlogSkelton'
 
 function App() {
   return (
